@@ -2,9 +2,10 @@ from setuptools import setup,find_packages
 
 setup(name="imageai-org",
       version='2.1.6',
-      description='A python library built to empower developers to build applications and systems  with self-contained Computer Vision capabilities',
-      url="https://github.com/OlafenwaMoses/ImageAI",
-      author='Moses Olafenwa and John Olafenwa',
+      description='This project is a fork of ImageAI project from https://github.com/OlafenwaMoses/ImageAI. '
+                  'In this fork, dependency versions are relaxed to allow usage with other packages in same environment',
+      url="https://github.com/organon-gitadmin/ImageAI",
+      author='Moses Olafenwa and John Olafenwa (forked by OrganonAnalytics)',
       author_email='support@organonanalytics.com',
       license='MIT',
       packages= find_packages(),
